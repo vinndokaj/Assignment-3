@@ -2,18 +2,25 @@
 //Assignment 3
 
 // 1) Select the section with an id of container without using querySelector.
+console.log("Question 1");
 let q1 = document.getElementById('container');
 console.log(q1);
 
 // 2) Select the section with an id of container using querySelector.
+console.log("Question 2");
 let q2 = document.querySelector('#container');
 console.log(q2);
 
 // 3) Select all of the list items with a class of "second".
+console.log("Question 3");
 let q3 = document.querySelectorAll('li.second');
-console.log(q3);
+const myArr = [...q3]
+for(let i = 0; i < myArr.length; i++){
+  console.log(myArr[i]);
+}
 
 // 4) Select a list item with a class of third, but only the list item inside of the ol tag.
+console.log("Question 4");
 let q4 = document.querySelector('ol .third')
 console.log(q4);
 
@@ -22,12 +29,14 @@ let q5 = document.getElementById('container');
 //q5.innerText = 'Hello!';
 
 // 6) Add the class main to the div with a class of footer.
+console.log("Question 6");
 let q6 = document.querySelector('div.footer');
 q6.classList.add('main');
 console.log(q6);
 
 // 7) Remove the class main on the div with a class of footer.
 //q6.classList.remove('main');
+console.log("Question 7");
 let q7 = document.querySelector('div.footer');
 q7.classList.remove('main');
 console.log(q7);
