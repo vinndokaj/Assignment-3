@@ -1,14 +1,29 @@
 body {
-  background-color: orangered;
+  background-color: dimgrey;
 }
 
 div {
   background-color: white;
+  border-radius: 5px;
   justify-content: center;
+  display:inline-block;
+  margin:auto;
 }
 
 fieldset {
-  background-color: lightgreen;
+  background-color: goldenrod;
+  margin:auto
+  display: inline;
+}
+
+legend {
+  text-align: center;
+  background-color: khaki;
+  border-radius: 8px;
+}
+
+form {
+  align-content: center;
 }
 
 button {
