@@ -1,0 +1,16 @@
+body {
+  background-color: orangered;
+}
+
+div {
+  background-color: white;
+  justify-content: center;
+}
+
+fieldset {
+  background-color: lightgreen;
+}
+
+button {
+  background-color: bisque;
+}

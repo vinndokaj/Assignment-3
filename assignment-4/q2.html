@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 4-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="q2">
+      <h1 id='hover'>Don't Hover Over Me!</h1>
+  </div>
+  <script>
+    let text = document.getElementById('hover');
+    text.addEventListener("mouseenter", function(event){
+      alert('Hey, I told you not to hover over me!');
+    });
+  </script>
+</body>

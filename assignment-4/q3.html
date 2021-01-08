@@ -2,24 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Assignment 4</title>
+    <title>Assignment 4-3</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 id='status'>Form Status: Incomplete</h1>
-  <form name="personalInfo" onsubmit="return validateForm()" method ="post">
-    <fieldset>
-      <legend>My Form</legend>
-      <label for="username">Please enter your username:</label><br>
-      <input type="text" id="username" name="username" placeholder="johndoe"><br>
+  <div class="q3">
+    <h1 id='status'>Form Status: Incomplete</h1>
+    <form name="personalInfo" onsubmit="return validateForm()" method ="post">
+      <fieldset>
+        <legend>My Form</legend>
+        <label for="username">Please enter your username:</label><br>
+        <input type="text" id="username" name="username" placeholder="johndoe"><br>
 
-      <label for="password">Please enter your password:</label><br>
-      <input type="text" id="password" name="password" placeholder="password"><br>
+        <label for="password">Please enter your password:</label><br>
+        <input type="text" id="password" name="password" placeholder="password"><br>
 
-      <label for="email">Please enter your email address:</label><br>
-      <input type="email" id="email" name="email" placeholder="johndoe@example.com"><br>
+        <label for="email">Please enter your email address:</label><br>
+        <input type="email" id="email" name="email" placeholder="johndoe@example.com"><br>
 
-      <input type="submit" value="Submit">
-    </fieldset>
-  </form>
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+  </div>
+
   <script src="script.js"></script>
 </body>
